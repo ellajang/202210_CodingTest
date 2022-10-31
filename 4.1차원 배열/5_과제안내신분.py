@@ -1,10 +1,10 @@
 import sys
 
-T=[]
-a=[0]
-for i in range(28):
-    T.append(int(sys.stdin.readline()))
-    if a<=30 and a>=30:
-        pass
-    else:
-       print(a)
+T = [t for t in range(1,31)]
+
+for t in range(28):
+    n=int(sys.stdin.readline())
+    T.remove(n)
+
+print(T[0])
+print(T[1])
