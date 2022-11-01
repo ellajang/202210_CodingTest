@@ -13,8 +13,8 @@ for i in range(9):
     for j in range(9):
         if board[i][j]>Max:
             Max=board[i][j]
-            x=i+1
-            y=j+1
+            x=i
+            y=j
 
 print(Max)
-print(x,y)
+print(x+1,y+1)
